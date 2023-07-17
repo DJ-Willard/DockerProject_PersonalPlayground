@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "UOCIS docker demo!"
+    return "Willard's docker demo!"
 
 @app.route("/<path:filename>")
 def show_file(filename):
